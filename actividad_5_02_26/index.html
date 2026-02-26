@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Escuela de Fútbol Sala | Colegio Gimnasio Ángeles</title>
+    <style>
+
+        /* ===== COLORES DEL COLEGIO ===== */
+        :root {
+            --rojo: #c62828;
+            --azul: #0d47a1;
+            --gris: #333;
+            --blanco: #fff;
+            --amarillo: #fbc02d;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7f7f7;
+            color: var(--gris);
+        }
+
+        header {
+            background: var(--azul);
+            color: var(--blanco);
+            text-align: center;
+            padding: 50px 20px;
+        }
+        header img.logo {
+            width: 120px;
+            margin-bottom: 10px;
+        }
+        header h1 {
+            font-size: 42px;
+            margin: 10px 0;
+        }
+        header p {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav {
+            background: var(--amarillo);
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: var(--gris);
+            font-weight: bold;
+            margin: 0 20px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            color: var(--azul);
+        }
+
+        .section {
+            padding: 50px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .section h2 {
+            color: var(--azul);
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 32px;
+        }
+
+        #historia p {
+            font-size: 18px;
+            line-height: 1.7;
+            text-align: justify;
+        }
+
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            margin-top: 30px;
+        }
+        .galeria img {
+            width: 100%;
+            border-radius: 12px;
+        }
+
+        .beneficios {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+        }
+        .beneficio-box {
+            width: 280px;
+            background: var(--blanco);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: rgba(0,0,0,0.15) 0px 5px 15px;
+            text-align: center;
+        }
+        .beneficio-box h3 {
+            color: var(--rojo);
+        }
+
+        .cta {
+            background: var(--rojo);
+            color: var(--blanco);
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 40px;
+        }
+        .cta h3 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .cta p {
+            font-size: 18px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 15px;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <img class="logo" src="https://angelitos.edu.co/wp-content/uploads/2024/01/LogoGimnasioAngeles_V1-1.png" alt="Logo Colegio Gimnasio Ángeles">
+    <h1>Escuela de Fútbol Sala</h1>
+    <p>Colegio Gimnasio Ángeles - Popayán, Cauca</p>
+</header>
+
+<nav>
+    <a href="#historia">Historia</a>
+    <a href="#galeria">Galería</a>
+    <a href="#beneficios">Beneficios</a>
+    <a href="#inscripciones">Inscripciones</a>
+</nav>
+
+<section class="section" id="historia">
+    <h2>Historia de Nuestra Escuela</h2>
+    <p>
+        La Escuela de Fútbol Sala del Colegio Gimnasio Ángeles nació con la visión de promover 
+        el deporte, la amistad y los valores en los estudiantes, acompañando su formación integral 
+        académica y personal. Inspirados por la misión institucional de educar para la vida con 
+        amor, disciplina y trabajo en equipo, este proyecto deportivo se ha consolidado como un 
+        espacio donde los jóvenes fortalecen sus habilidades técnicas y su espíritu competitivo 
+        saludable. :contentReference[oaicite:1]{index=1}
+    </p>
+    <p>
+        Desde sus primeros entrenamientos, la escuela ha construido una historia de compromiso 
+        con la excelencia y la integración. Con entrenadores capacitados, actividades semanales y 
+        participación en torneos escolares, los estudiantes no solo aprenden a jugar sino a 
+        respetar, liderar y superar desafíos juntos. ¡Aquí cada gol representa disciplina y 
+        esfuerzo! 
+    </p>
+</section>
+
+<section class="section" id="galeria">
+    <h2>Galería Deportiva</h2>
+    <div class="galeria">
+        <img src="https://concepto.de/wp-content/uploads/2022/12/fubol-sala-futsal.jpg" alt="Fútbol Sala">
+        <img src="https://angelitos.edu.co/wp-content/uploads/2024/01/LogoGimnasioAngeles_V1-1.png" alt="Logo Gimnasio Ángeles">
+    </div>
+</section>
+
+<section class="section" id="beneficios">
+    <h2>¿Por Qué Entrenar con Nosotros?</h2>
+    <div class="beneficios">
+        <div class="beneficio-box">
+            <h3>Entrenamientos Profesionales</h3>
+            <p>Sesiones guiadas por entrenadores capacitados para desarrollar técnica y táctica.</p>
+        </div>
+        <div class="beneficio-box">
+            <h3>Disciplina y Liderazgo</h3>
+            <p>Valores fundamentales que impulsan tanto en la cancha como en el aula.</p>
+        </div>
+        <div class="beneficio-box">
+            <h3>Eventos y Torneos</h3>
+            <p>Participación en eventos intercolegiales con espíritu competitivo sano.</p>
+        </div>
+    </div>
+</section>
+
+<section class="cta" id="inscripciones">
+    <style>
+     h1 {
+       color:#502222;
+       text-align: center;
+     }
+ ¡Inscríbete Hoy!
+     p {
+     font-size: 20px;
+     }
+    </style>
+    <h3>¡Inscríbete Hoy!</h3>
+    <p>Únete a la Escuela de Fútbol Sala del Colegio Gimnasio Ángeles.</p>
+    <p><strong>Entrena • Compite • Crece</strong></p>
+</section>
+
+<footer>
+    © 2026 Escuela de Fútbol Sala | Colegio Gimnasio Ángeles – Popayán, Cauca
+</footer>
+
+</body>
+</html>
+
